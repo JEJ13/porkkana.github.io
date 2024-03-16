@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kuvat">
+        <img src="style/Porkkanakakunpala2.jpg"> 
+        <img src="style/Porkkanakakku.jpg">
+        <img src="style/Porkkanakakku4.jpg">
+    </div>
+    <div class="appbar">
+        <button onclick="window.location.href='index.html';">Etusivu</button>
+        <button onclick="window.location.href='recipes.html';">Täältä löydät reseptejä!</button>
+        <button onclick="window.location.href='yourownrecipe.html';">Jätä täällä oma reseptisi</button>
+
+    </div>
+    <div class="home">
+        <div class="Jätäresepti">
+            <h1>Jätä tänne oma porkkanakakkureseptisi!</h1>
+        </div>
+    <br>
+<form>
+    <label for="resepti">Kirjoita alle reseptisi, huomio lähettämällä reseptisi annat sivustolle oikeuden sen käyttöön:</label>
+    <br>
+    <br>
+    <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br><br>
+    <input type="submit" value="Lähetä">
+</form>
+<h2> Eikö sinulla ole vielä reseptiä, <a href="recipes.html">täältä</a> löydät valmiita reseptejä!</p>
+</html>

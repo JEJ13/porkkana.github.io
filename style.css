@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(207, 148, 106);
+}
+
+
+img {
+    padding: 2.6px;
+}
+
+.home {
+   padding: 5px;
+}
+
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.appbar {
+    padding: 5px;
+    border: 2px;
+    background-color: rgb(187, 91, 22);
+}
+
+.site1 {
+    border: 5px;
+    background-color: white;
+}
+
+.site2 {
+    border: 5px;
+    background-color: white;
+}
